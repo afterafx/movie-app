@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types';
 
+import '../css/search-bar.css';
+
 class SearchBar extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +24,7 @@ class SearchBar extends Component {
   render() {
     const { searchInputValue } = this.state;
     return (
-      <div>
+      <div className="search-bar-container">
         <form action="submit" onSubmit={this.handleSubmit}>
           <input
             id="search-box"

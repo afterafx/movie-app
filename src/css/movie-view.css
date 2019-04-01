@@ -1,0 +1,34 @@
+.movie-view-container {
+  background-color: black;
+  width: 80%;
+  height: 100vh;
+}
+
+.image-overview-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+
+}
+
+.image-poster {
+  background-color: #eeeeee;
+  height: 450px;
+  width: 300px;
+  margin: 25px;
+}
+
+.movie-overview {
+  background-color: #eeeeee;
+  height: 450px;
+  width: 50%;
+  margin: 25px;
+  border-radius: 3px;
+}
+
+.top-cast-overview {
+  background-color: #eeeeee;
+  width: 80%;
+  height: 20%;
+  margin: 25px;
+}

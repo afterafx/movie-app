@@ -1,0 +1,21 @@
+.search-bar-container {}
+
+#search-box {
+  margin-top: 10px;
+  width: 90%;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+}
+
+#search-button {
+  width: 90%;
+  margin-top: 5px;
+  background-color: rgb(231, 152, 33);
+  color: black;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+
+}
